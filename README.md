@@ -1,5 +1,5 @@
 # Currency converter
-Currency converted from PLN on USD or EUR with constans 
+Currency converted from  USD or EUR on PLN with constans 
 exchange rate. Made for tests.
 ## Demo
 https://github.com/asia4code/currency_converter.git
