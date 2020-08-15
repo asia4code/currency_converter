@@ -13,8 +13,9 @@ html {
 
 .container {
     max-width: 700px;
+    width: 100%;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 auto;
 }
 
 .form {
@@ -24,11 +25,15 @@ html {
    margin: 0 auto;
 }
 .form_fieldset {
+    width: 100%;
+    max-width: 500px;
     background-color: gold;
     border: rgb(105, 13, 13) solid 2px;
     border-radius: 20px;
 }
 .form_legend {
+    width: 100%;
+    max-width: 500px;
     color: gold;
     font-style: bold ;
     background-color:rgb(105, 13, 13);
@@ -40,7 +45,7 @@ html {
 .form_labelText {
     color:brown;
     font-weight: 700px;
-    width:200px;
+    max-width:200px;
     display: inline-block;
     margin: 5px;
   
@@ -59,12 +64,12 @@ html {
     color:hsl(0, 78%, 23%);
     font-weight: 700px;
     padding: 10px;
-    width: 200px;
+    max-width: 200px;
     border-radius: 20px;
 }
 .form_button{
     color: gold;
-    width:100%;
+    max-width:100%;
     font-style: bold ;
     background-color: hsl(0, 78%, 23%);
     border: rgb(105, 13, 13) solid 2px;
@@ -78,7 +83,7 @@ html {
     background-color: hsl(0, 82%, 40%);}
 
     .form_minText{
-    width: 400px;
+    max-width: 400px;
     font-size: 15px;
 
     }
